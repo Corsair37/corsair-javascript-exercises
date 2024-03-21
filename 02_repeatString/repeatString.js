@@ -1,11 +1,9 @@
-let string = "hey";
-let num = 3;
-
 const repeatString = function(string, num){
-    for (num; num >= 0 ; num--){
+    for (let i = 0; i <= num; i++){
         return string
-    }
+    };
 };
+repeatString ("hey", 3);
 
 // Do not edit below this line
 module.exports = repeatString;
